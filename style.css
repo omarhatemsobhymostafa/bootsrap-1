@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+.card{
+    height: 45vh;
+    
+    width: calc(100% / 3 - 4rem);
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+a{
+    width: 35px;
+    height: 35px;
+  
+}
+i{
+    font-size: 100%;
+
+    text-align: center;
+  
+}
+body{
+    background-color: rgb(207, 207, 207);
+}
